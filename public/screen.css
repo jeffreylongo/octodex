@@ -1,23 +1,33 @@
 body {
+  font-family: helvetica, arial, freesans, clean, sans-serif;
+  font-size: 13px;
   margin: 0;
-  font: 16px / 1 sans-serif;
 }
 
-.headerbox {
-  background-color: lightgrey;
+header {
+  background-color: #c0c0c0;
   display: flex;
   align-items: center;
-
+  padding: 1em;
 }
 
-.logoimg {
-  width: 15%;
+header nav {
+  display: flex;
+  align-items: center;
 }
 
-.nav ul {
+header h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+header ul { 
   list-style: none;
   padding-left: 0;
   display: flex;
-  
+  flex: 1;
+}
 
+header li {
+  padding-left: 2em;
 }
