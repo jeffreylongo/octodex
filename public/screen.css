@@ -45,6 +45,11 @@ li:hover {
   color: lightskyblue;
 }
 
+hr {
+  width: 450px;
+  margin: 10px;
+}
+
 main img {
   border: 1px solid lightgrey;
   padding: 10px;
@@ -56,4 +61,5 @@ main img {
     display: block;
     margin: 0 auto;
   }
+
 }
