@@ -1,19 +1,19 @@
 body {
   font-family: helvetica, arial, freesans, clean, sans-serif;
   font-size: 13px;
+  font-weight: bold;
   margin: 0;
 }
 
 header {
-  background-color: #c0c0c0;
+  background-color: #f3f3f3;
   display: flex;
   align-items: center;
   padding: 1em;
 }
 
-header nav {
-  display: flex;
-  align-items: center;
+.logo {
+  height: 2em;
 }
 
 header h1 {
@@ -23,11 +23,37 @@ header h1 {
 
 header ul { 
   list-style: none;
-  padding-left: 0;
   display: flex;
   flex: 1;
+  justify-content: flex-end;
 }
 
 header li {
   padding-left: 2em;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: lightskyblue;
+}
+
+li:hover {
+  color: lightskyblue;
+}
+
+main img {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  main img{
+    display: block;
+    margin: 0 auto;
+  }
 }
